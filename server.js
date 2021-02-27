@@ -3,7 +3,7 @@ const auth = require('json-server-auth')
 
 const app = jsonServer.create()
 const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults({ noCors: true })
+const middlewares = jsonServer.defaults({ noCors: false })
 
 const port = process.env.PORT || 3333
 
