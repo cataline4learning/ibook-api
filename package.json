@@ -1,0 +1,14 @@
+{
+  "name": "ibook-api",
+  "author": "Cataline",
+  "version": "1.0.0",
+  "description": "Fake api for Ibook Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.16.2",
+    "json-server-auth": "^2.0.2"
+  }
+}
